@@ -1,0 +1,10 @@
+{
+    "version": "1.0.0",
+    "file": "mcp_server_email.py",
+    "transport": "stdio",
+    "dependencies": ["mcp"],
+    "env_vars": [
+        {"name": "SMTP_USER", "description": "SMTP username for email service (e.g., Gmail address)"},
+        {"name": "SMTP_PASSWORD", "description": "SMTP password or app-specific password for email service"}
+    ]
+}
