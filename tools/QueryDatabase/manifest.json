@@ -1,0 +1,18 @@
+{
+    "name": "database_agent",
+    "version": "1.0.0",
+    "file": "database_agent.py",
+    "transport": "stdio",
+    "dependencies": [
+      "fastmcp",
+      "langchain",
+      "langchain-openai",
+      "langchain-community",
+      "psycopg2-binary",
+      "sqlalchemy"
+    ],
+    "env_vars": [
+      {"name": "OPENAI_API_KEY", "description": "OpenAI API key for LLM"},
+      {"name": "POSTGRESQL_URL", "description": "PostgreSQL database URI", "default": "postgresql://postgres:mysecretpassword@localhost:5432/sales_db"}
+    ]
+  }
