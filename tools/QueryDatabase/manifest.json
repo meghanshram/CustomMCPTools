@@ -2,7 +2,14 @@
   "version": "1.0.0",
   "file": "database_agent.py",
   "transport": "stdio",
-  "dependencies": ["mcp","langchain","langchain-openai","langchain-community","psycopg2-binary","sqlalchemy"],
+  "dependencies": [
+    "mcp",
+    "langchain==0.3.0",
+    "langchain-openai==0.2.0",
+    "langchain-community==0.3.0",
+    "psycopg2-binary==2.9.9",
+    "sqlalchemy==2.0.35"
+  ],
   "env_vars": [
     {
       "name": "OPENAI_API_KEY",
