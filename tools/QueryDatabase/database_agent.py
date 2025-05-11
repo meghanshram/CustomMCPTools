@@ -1,3 +1,4 @@
+import os
 from mcp.server.fastmcp import FastMCP
 import json
 import os
@@ -7,6 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
 from langchain_community.tools.sql_database.tool import QuerySQLDatabaseTool
 from typing_extensions import TypedDict, Annotated
+
 
 # Initialize FastMCP server
 mcp = FastMCP(
