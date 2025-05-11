@@ -1,5 +1,5 @@
 {
-    "name": "database_agent",
+    "name": "QueryDatabase",
     "version": "1.0.0",
     "file": "database_agent.py",
     "transport": "stdio",
